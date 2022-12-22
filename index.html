@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Notebook Paper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: 'Indie Flower';
+  font-weight: 200;
+}
+
+#notebook-paper {
+  width: 960px;
+  height: 1109px;
+  background: linear-gradient(to bottom, white 29px, #00b0d7 1px);
+  margin: 50px auto;
+  background-size: 100% 30px;
+  position: relative;
+  padding-top: 150px;
+  padding-left: 160px;
+  padding-right: 20px;
+ 
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+#notebook-paper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 140px;
+  height: 100%;
+  width: 1px;
+  background: #db4034;
+}
+#notebook-paper header {
+  height: 150px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#notebook-paper header h1 {
+  font-size: 60px;
+  line-height: 60px;
+  padding: 127px 20px 0 160px;
+}
+#notebook-paper #content {
+  margin-top: 67px;
+  font-size: 18px;
+  line-height: 30px;
+}
+#notebook-paper #content p {
+  margin: 0 0 30px 0;
+}
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="notebook-paper">
+  <header>
+    <h1>Honey</h1>
+  </header>
+  <div id="content">
+    <div class="hipsum"><p>Se veio até aqui é por que, ou é curiosa, ou eu tinha razão no que disse na carta. Sinto que nossa liguagem é algo muito limitado para expressar o quanto eu realmente te amo, mesmo expressando em varios idiomas.</p> <p>Eu te amo. I love you. Ek is lief vir jou. Te dua. Ich lieb Dich. Ana b’hibbik. Yes kez sirumen. M’bi fe. tuma ke bhalo aashi. Ya tabe kahayu. Nahigugma ako kanimo. Obicham te. Soro lahn nhee ah. Ngo oiy ney a. T’estimo. Ne mohotatse. Ndimakukonda. Sarang Heyo. Mwen renmen ou. Volim te. Jeg Elsker Dig. Ik hou van jo. I love you. Lu ‘bim ta. Ljubim te. Te quiero – Te amo. Mi amas vin. Ma armastan sin. Afgreki’. Eg elski teg. Doset daram. Mahal kita. Mina rakastan sinua. Je t’aime – Je t’adore. Ta gra agam ort. Tha gra – dh agam ort. Mikvarhar. S’agapo. Hoo thunay prem karoo choo. Rohayhu. Aloha wau ia oi. Ani ohev otah. Guina higugma ko ikaw. Kuv hlub koj. Nu’ umi unangwa’ta. Szeretlek. Eg elska tig. Palangga ko ikaw. Hum Tumhe Pyar Karte hae. Saya cinta padamu. Negligevapse. Taim i’ ngra leat. Ti amo. Aishiteru. Kulo tresno. Naanu ninna preetisuttene. Kaluguran daka. Nakupenda. Tu magel moga cho. Te amo. Es tevi miilu. Bahibak. Tave myliu.</p><p>Eu te amo mil milhões! 🧡</p>
+  </div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+
+
+</html>
